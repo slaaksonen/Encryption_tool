@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="File_encryption.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:File_encryption"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Encrypt Caesar" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.121,-0.923" Click="Button_Click" Height="45" Width="163"/>
+        <Button Content="Encrypt XOR" HorizontalAlignment="Left" Margin="10,300,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.121,-0.923" Click="Button_Click2" Height="45" Width="163"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="10,149,0,0" TextWrapping="Wrap" Text="Name file" VerticalAlignment="Top" RenderTransformOrigin="-0.674,-4.224" Height="33" Width="163"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Margin="10,187,0,0" TextWrapping="Wrap" Text="Key size? 1-26" VerticalAlignment="Top" RenderTransformOrigin="-0.674,-4.224" Height="33" Width="163"/>
+        <TextBlock HorizontalAlignment="Left" Height="28" Margin="8,119,-129,0" TextWrapping="Wrap" Text="Name for encrypted file:" VerticalAlignment="Top" Width="481" RenderTransformOrigin="0.5,0.5" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="Encryption tool" VerticalAlignment="Top" FontSize="45" FontWeight="Bold" />
+    </Grid>
+
+</Page>
